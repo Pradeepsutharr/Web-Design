@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 300px;
+            border: 2px solid black;
+            padding: 20px;
+            background-color: antiquewhite;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Box Sizing</h2>
+    <h4>By default, the width and height of an element is calculated like <this:br></this:br><br>
+
+        width + padding + border = actual width of an element <br>
+        height + padding + border = actual height of an element <br> <br>
+
+        This means: When you set the width/height of an element, the element often appears bigger than you have set
+        (because the element's border and padding are added to the element's specified width/height).</h4>
+        <hr>
+        <h2>The box-sizing property solves this problem.</h2>
+        <h4>The box-sizing property allows us to include the padding and border in an element's total width and height. <br>
+            If you set box-sizing: border-box; on an element, padding and border are included in the width and height: <br>
+        </h4>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia provident saepe praesentium,
+            officia dolore perspiciatis ex quaerat quidem, obcaecati voluptatum ipsa. Veniam molestiae omnis natus enim
+            a! Mollitia aperiam illo fugiat consequuntur, excepturi aliquid nulla cum rem hic eligendi molestiae sint
+            voluptatum corrupti corporis accusamus natus officiis aut a, molestias amet necessitatibus eveniet aliquam
+            placeat! Repellendus nostrum quibusdam voluptatibus consequuntur facere, a similique. Soluta architecto
+            possimus eum molestias optio nihil eveniet illum quo inventore dolorem velit consectetur, expedita ab vel
+            alias at corrupti maxime officiis officia a hic adipisci fuga, deserunt iusto! Eaque voluptatum iure
+            exercitationem maxime, doloremque quod?
+        </p>
+    </div>
+</body>
+
+</html>
