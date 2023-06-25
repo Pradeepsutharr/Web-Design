@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+
+        .main{display: flex; border: 2px solid black;}
+
+        .col{border: 1px solid blue; background-color: antiquewhite; margin: 5px 10px;} 
+
+        .flex-wrap-nowrap{flex-wrap: nowrap;}
+
+        .flex-wrap-wrap{flex-wrap: wrap;}
+
+        .col-25{ width: 25%;}
+
+        .flex-wrap-wrap-reverse{flex-wrap: wrap-reverse;}
+    </style>
+</head>
+<body>
+    <h2>Flex Wrap</h2>
+    <p>The flex-wrap property specifies whether the flexible items should wrap or not.</p>
+    <br><br><br>
+    <h3>Flex Wrap Nowrap :- Default value. Specifies that the flexible items will not wrap</h3> <br>
+    <div class="main flex-wrap-nowrap">
+        <div class="col">Col 1</div>
+        <div class="col">Col 2</div>
+        <div class="col">Col 3</div>
+        <div class="col">Col 4</div>
+    </div>
+
+    <br><br><br><br>
+   <h3>Flex Wrap Wrap :- Specifies that the flexible items will wrap if necessary</h3> <br>
+    <div class="main flex-wrap-wrap">
+        <div class="col col-25">Col 1</div>
+        <div class="col col-25">Col 2</div>
+        <div class="col col-25">Col 3</div>
+        <div class="col col-25">Col 4</div>
+        <div class="col col-25">Col 5</div>
+    </div>
+
+    <br><br><br><br>
+     <h3>Flex Wrap Wrap-reverse :- Specifies that the flexible items will wrap, if necessary, in reverse order</h3> <br>
+    <div class="main flex-wrap-wrap-reverse">
+        <div class="col col-25">Col 1</div>
+        <div class="col col-25">Col 2</div>
+        <div class="col col-25">Col 3</div>
+        <div class="col col-25">Col 4</div>
+        <div class="col col-25">Col 5</div>
+    </div>
+</body>
+</html>
