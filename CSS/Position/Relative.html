@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid;
+        }
+
+        .item{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            margin: 0 10px;
+        }
+
+        .relative{
+            position: relative;
+            top: 50px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>position:relative;</h2>
+    <p>An element with <b>position: relative;</b> is positioned relative to its normal position</p>
+        <p>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be
+            adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the
+            element.</p>
+            <hr>
+    <h2>Example of "position:relative;"</h2>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item relative">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>
