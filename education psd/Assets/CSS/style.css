@@ -15,6 +15,10 @@
     font-family: poppins;
 }
 
+a{
+    color: black;
+}
+
 body {
     background-color: #F7FBFE;
 }
@@ -45,6 +49,7 @@ body {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-50 {
@@ -277,8 +282,25 @@ div[class*="cards"] {
     color: white;
     margin: 0 20px;
     transition: all 300ms ease-in-out;
+    overflow: hidden;
+    position: relative;
 }
 
+.card img{
+    width: 100%;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card h2{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    z-index: 1;
+}
 
 .cards-2 {
     margin: 40px 65px 0 0;
@@ -288,36 +310,20 @@ div[class*="cards"] {
 .card h2 {
     margin: 10px 20px;
     font-family: poppins;
-    text-transform: ;
+    /* text-transform: ; */
 }
 
-.card:hover {
-    transform: scale(1.05);
-}
 
-.class {
-    background-image: url(../Images/classroom.png);
-    background-position: center;
-}
 
-.library {
-    background-image: url(../Images/library.png);
-    background-position: center;
-}
-
-.campus {
-    background-image: url(../Images/campus.png);
-    background-position: center;
-}
-
-.convocation {
-    background-image: url(../Images/convocation.png);
-    background-position: center;
-}
 
 /* -----------section-2----------- */
 .sec-2{
     background-color: #E4EFFD;
+}
+
+.academic-programs{
+    width: 85%;
+    margin: 0 auto;
 }
 
 .programs h2{
@@ -326,7 +332,6 @@ div[class*="cards"] {
 
 .programs p{
     font-size: 20px;
-    font-weight: 600;
     width: 50%;
     margin: 10px 0;
 }
@@ -344,16 +349,123 @@ div[class*="cards"] {
     text-decoration: none;
     color: #707070;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
     margin: 0 80px 0 0;
     transition: all 200ms ease-in-out;
 }
 
-.degree ul li a:hover{
+.degree a:hover{
     color: black;
 }
 
-.degree ul li a .bachelor:active{
+ .bachelor:visited{
     color: black;
+}
+
+.box .sqr{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+.wrap{
+    width: 80%;
+    margin: 35px auto;
+}
+
+.wrap p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.sqr:hover{
+    color: white !important;
+    background-color: black;
+    
+}
+.sqr:hover a{
+    color: white ;
+    background-color: black;
+    border:1px solid #fff !important;
+}
+
+.box .sqr a{
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 600;
+    
+}
+
+.links{
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 90px;
+    transform: translate(0, 80%);
+}
+
+/* ----------section-3---------- */
+
+.sec-3{
+    background-color: #E4EFFD;
+}
+
+.crs-wrap{
+    width: 85%;
+    margin: 0 auto;
+    padding: 90px 0 0 0;
+}
+
+.course{
+    margin: 50px 0 0 0;
+}
+
+.view-all{
+    margin-left: auto;
+}
+
+.view-all button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: rgb(115, 172, 255);
+    background: linear-gradient(87deg, rgb(77 142 237) -1%, rgb(16 70 148) 100%);
+    color: white;
+}
+
+.view-all i{
+    margin: 0 0 0 5px;
+}
+
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crs-box{
+    background-color: #1e78f52b;
+    height: 300px;
+    width: 320px;
+    border-radius: 15px;
+    margin: 25px 0 0 0;
+}
+
+.course-heading h2{
+    font-size: 28px;
+}
+
+.c-image{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.c-image img{
+    width: 100%;
 }
