@@ -15,7 +15,7 @@
     font-family: poppins;
 }
 
-a{
+a {
     color: black;
 }
 
@@ -25,6 +25,10 @@ body {
 
 .align-ctr {
     align-items: center;
+}
+
+.txt-ctr {
+    text-align: center;
 }
 
 .jsc-ctr {
@@ -148,7 +152,7 @@ header {
     color: white;
     background: rgb(115, 172, 255);
     background: linear-gradient(87deg, rgb(77 142 237) -1%, rgb(16 70 148) 100%);
-    padding: 15px 20px;
+    padding: 12px 20px;
     border: none;
     outline: none;
     border-radius: 8px;
@@ -286,16 +290,17 @@ div[class*="cards"] {
     position: relative;
 }
 
-.card img{
+.card img {
     width: 100%;
     display: block;
     transition: all .3s ease-in-out;
 }
-.card img:hover{
+
+.card img:hover {
     transform: scale(1.1);
 }
 
-.card h2{
+.card h2 {
     position: absolute;
     bottom: 5px;
     left: 10px;
@@ -317,53 +322,52 @@ div[class*="cards"] {
 
 
 /* -----------section-2----------- */
-.sec-2{
+.sec-2 {
     background-color: #E4EFFD;
 }
 
-.academic-programs{
+.academic-programs {
     width: 85%;
     margin: 0 auto;
 }
 
-.programs h2{
+.programs h2 {
     font-size: 50px;
 }
 
-.programs p{
+.programs p {
     font-size: 20px;
     width: 50%;
     margin: 10px 0;
 }
 
-.degree{
+.degree {
     margin: 20px 0;
 }
 
-.degree ul li{
+.degree ul li {
     display: inline-block;
     list-style: none;
 }
 
-.degree ul li a{
+.degree ul li a {
     text-decoration: none;
-    color: #707070;
+    color: #a0a0a0;
     font-size: 25px;
-    font-weight: 600;
     text-transform: capitalize;
     margin: 0 80px 0 0;
     transition: all 200ms ease-in-out;
 }
 
-.degree a:hover{
+.degree a:hover {
     color: black;
 }
 
- .bachelor:visited{
+.bachelor:visited {
     color: black;
 }
 
-.box .sqr{
+.box .sqr {
     height: 300px;
     width: 300px;
     border: 1px solid black;
@@ -371,38 +375,39 @@ div[class*="cards"] {
     transition: all 200ms ease-in-out;
 }
 
-.wrap{
+.wrap {
     width: 80%;
     margin: 35px auto;
 }
 
-.wrap p{
+.wrap p {
     font-size: 20px;
     line-height: 25px;
 }
 
-.sqr:hover{
+.sqr:hover {
     color: white !important;
     background-color: black;
-    
-}
-.sqr:hover a{
-    color: white ;
-    background-color: black;
-    border:1px solid #fff !important;
+
 }
 
-.box .sqr a{
+.sqr:hover a {
+    color: white;
+    background-color: black;
+    border: 1px solid #fff !important;
+}
+
+.box .sqr a {
     text-decoration: none;
     text-transform: capitalize;
     border: 1px solid black;
     border-radius: 20px;
     padding: 5px 20px;
     font-weight: 600;
-    
+
 }
 
-.links{
+.links {
     align-items: center;
     display: flex;
     position: relative;
@@ -412,26 +417,27 @@ div[class*="cards"] {
 
 /* ----------section-3---------- */
 
-.sec-3{
+.sec-3 {
     background-color: #E4EFFD;
+    padding: 0 0 50px 0;
 }
 
-.crs-wrap{
+.crs-wrap {
     width: 85%;
     margin: 0 auto;
     padding: 90px 0 0 0;
 }
 
-.course{
+.course {
     margin: 50px 0 0 0;
 }
 
-.view-all{
+.view-all {
     margin-left: auto;
 }
 
-.view-all button{
-    padding: 10px 20px;
+.view-all button {
+    padding: 12px 20px;
     border-radius: 25px;
     border: none;
     outline: none;
@@ -440,32 +446,201 @@ div[class*="cards"] {
     color: white;
 }
 
-.view-all i{
+.view-all i {
     margin: 0 0 0 5px;
 }
 
-.courses{
+.courses {
     display: flex;
     flex-wrap: wrap;
 }
 
-.crs-box{
-    background-color: #1e78f52b;
+.crs-box {
+    background-color: #1e78f51c;
     height: 300px;
-    width: 320px;
+    width: 300px;
     border-radius: 15px;
     margin: 25px 0 0 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.138);
 }
 
-.course-heading h2{
+.course-heading h2 {
     font-size: 28px;
 }
 
-.c-image{
-    width: 70%;
+.c-image {
     margin: 0 auto;
 }
 
-.c-image img{
+.c-image img {
     width: 100%;
+    aspect-ratio: 5/3;
+    object-fit: contain;
+}
+
+.crs-btn button {
+    background-color: #7db2ff82;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.crs-details {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.crs-details h2 {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.crs-details p {
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-blue {
+    background-color: #a5cafed6;
+    color: #006EF5;
+}
+
+.circle-yellow {
+    background-color: #ffcb3c52;
+    color: #ffaa1b;
+}
+
+.circle-red {
+    background-color: #ff000030;
+    color: #FE0000;
+}
+
+/* --------section-4-------- */
+
+.sec-4 {
+    background-color: #20465A;
+}
+
+.faculty {
+    padding: 50px 0 0 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faculty h1 {
+    font-size: 60px;
+    width: 60%;
+    text-align: right;
+    line-height: 70px;
+}
+
+.faculty p {
+    font-size: 20px;
+}
+
+.fac-image {
+    height: 350px;
+    width: 750px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fac-image img {
+    width: 100%;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.fac-image img:hover{
+    transform: scale(1.05);
+}
+
+.fac-text-box {
+    height: 350px;
+    width: 320px;
+    background-color: #003553;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.fac-text-box:hover{
+    background-color: #0000005e;
+}
+
+.fac-text {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.fac-text button {
+    padding: 3px 15px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0 10px 0
+}
+
+.fac-text h3 {
+    font-size: 14px;
+    padding: 65px 0 0 0;
+    font-weight: normal;
+}
+
+.fac-text h2 {
+    font-size: 26px;
+}
+
+.see-faculty i{
+    transform: rotate(45deg);
+    margin: 0 0 0 15px;
+}
+
+.see-faculty button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin: 40px 0;
+    text-transform: capitalize;
+    transition: all .2s ease-in-out;
+}
+
+.see-faculty button:hover{
+    background-color: #0000005e;
+    border: 2px solid #00000000;
+}
+
+/* -----------section-5---------- */
+
+.sec-5{
+    background-color: #20465A;
+    padding: 50px;
+}
+
+.sec-5 .row h1{
+    font-size: 60px;
+    color: white;
+    width: 30%;
+    line-height: 70px;
+}
+
+.sec-5 .row p{
+    width: 40%;
+    margin: 60px 0;
+    padding: 63px 0;
+    color: white;
 }
