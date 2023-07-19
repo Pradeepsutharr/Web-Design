@@ -135,7 +135,7 @@ header {
     color: #1E76F5;
 }
 
-.col-50 img {
+.col-50 .image img {
     width: 100%;
     padding: 0 0 0 85px;
 }
@@ -222,7 +222,7 @@ header {
     background-color: #E4EFFD;
 }
 
-.about {
+.sec-1 .about {
     display: flex;
     margin: 50px auto 0 auto;
     justify-content: space-between;
@@ -533,20 +533,20 @@ div[class*="cards"] {
     background-color: #20465A;
 }
 
-.faculty {
+.sec-4 .faculty {
     padding: 50px 0 0 0;
     width: 80%;
     margin: 0 auto;
 }
 
-.faculty h1 {
+.sec-1 .faculty h1 {
     font-size: 60px;
     width: 60%;
     text-align: right;
     line-height: 70px;
 }
 
-.faculty p {
+.sec-1 .faculty p {
     font-size: 20px;
 }
 
@@ -563,7 +563,7 @@ div[class*="cards"] {
     transition: all .3s ease-in-out;
 }
 
-.fac-image img:hover{
+.fac-image img:hover {
     transform: scale(1.05);
 }
 
@@ -575,7 +575,7 @@ div[class*="cards"] {
     transition: all .2s ease-in-out;
 }
 
-.fac-text-box:hover{
+.fac-text-box:hover {
     background-color: #0000005e;
 }
 
@@ -602,12 +602,12 @@ div[class*="cards"] {
     font-size: 26px;
 }
 
-.see-faculty i{
+.see-faculty i {
     transform: rotate(45deg);
     margin: 0 0 0 15px;
 }
 
-.see-faculty button{
+.see-faculty button {
     padding: 10px 20px;
     border: none;
     border-radius: 40px;
@@ -619,28 +619,171 @@ div[class*="cards"] {
     transition: all .2s ease-in-out;
 }
 
-.see-faculty button:hover{
+.see-faculty button:hover {
     background-color: #0000005e;
     border: 2px solid #00000000;
 }
 
 /* -----------section-5---------- */
 
-.sec-5{
+.sec-5 {
     background-color: #20465A;
     padding: 50px;
 }
 
-.sec-5 .row h1{
+.sec-5 .row h1 {
     font-size: 60px;
     color: white;
     width: 30%;
     line-height: 70px;
 }
 
-.sec-5 .row p{
+.col-100 .row p {
     width: 40%;
-    margin: 60px 0;
-    padding: 63px 0;
+    margin: 60px 0 30px 0;
+    padding-top: 63px;
     color: white;
 }
+
+
+.image img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.rsrch-text {
+    color: white;
+}
+
+.rsrch-text h2 {
+    margin: 10px 0;
+}
+
+.rsrch-text p {
+    padding: 10px 0;
+}
+
+/* ---------------section-6---------------- */
+
+.sec-6 {
+    background-color: black;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.sec6-text1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 70px;
+    margin: 90px 40px;
+}
+
+.sec6-text1 .right {
+    margin: 0 0 0 60px;
+}
+
+.student-card {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.sec6-text2 p {
+    font-size: 15px;
+}
+
+
+.student-details {
+    margin: 90px 0 0px 0;
+    align-items: center;
+    line-height: 16px;
+}
+
+.student-details .photo {
+    width: 20%;
+}
+
+.student-details .photo img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.student-details .name {
+    margin: 0 0 0 15px;
+    text-transform: capitalize;
+}
+
+.student-details .name h2 {
+    font-size: 15px;
+}
+
+.student-details .name p {
+    font-size: 12px;
+}
+
+/* ----------footer----------- */
+
+.wrap-footer{
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+footer{
+    background-color: black;
+}
+
+.red {
+    color: red;
+}
+
+.footer {
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.buttons button {
+    text-transform: capitalize;
+    display: block;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: all .2s ease-in-out;
+}
+
+.buttons button:hover{
+    background-color: red;
+    border: 1px solid transparent;
+}
+
+.buttons .applying {
+    padding: 8px 27px;
+    margin-top: 10px;
+}
+
+.buttons .scholarship{
+    padding: 8px 18px;
+    margin: 30px 0;
+}
+
+.buttons .career {
+    padding: 8px 35px;
+}
+
