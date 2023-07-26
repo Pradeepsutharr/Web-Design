@@ -40,6 +40,10 @@ a {
     text-decoration: none;
 }
 
+.gap_20 {
+    gap: 20px;
+}
+
 .align_center {
     align-items: center;
 }
@@ -50,6 +54,10 @@ a {
 
 .justify_center {
     justify-content: center;
+}
+
+.justify_even {
+    justify-content: space-evenly;
 }
 
 .container {
@@ -67,9 +75,6 @@ header {
     flex-wrap: wrap;
 }
 
-.logo img {
-    vertical-align: middle;
-}
 
 .navbar li {
     display: inline-block;
@@ -121,6 +126,7 @@ header {
 
 .sec_1 h1 {
     font-size: 60px;
+    color: #02033B;
 }
 
 .sec_1_para {
@@ -169,7 +175,7 @@ header {
     padding: 30px;
 } */
 
-/* --------------------section-3--------------- */
+/* --------------------section-2--------------- */
 
 .sec_2 {
     background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
@@ -184,6 +190,8 @@ header {
     font-size: 36px;
     width: 40%;
     padding: 50px 0;
+    font-family: inter_bold;
+    color: #02033B;
 }
 
 .slider {
@@ -199,11 +207,10 @@ header {
 .slider .box {
     background-color: white;
     border-radius: 25px;
-    min-height: 300px;
 }
 
 .box_content {
-    padding: 30px 30px 70px 30px;
+    padding: 30px 30px 50px 30px;
 }
 
 .sec_2_text_2 {
@@ -254,6 +261,7 @@ header {
 .sec_3_text_1 h2 {
     font-size: 36px;
     font-family: inter_bold;
+    color: #02033B;
 }
 
 
@@ -264,4 +272,53 @@ header {
 
 .sec_3 .border_btn {
     margin-top: 30px;
+}
+
+/* --------------section-4-------------- */
+
+.sec_4 {
+    background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
+}
+
+.sec_4_txt_1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sec_4_txt_1 h2 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 36px;
+    font-family: inter_bold;
+    color: #02033B;
+}
+
+.center_box {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 60px 0;
+}
+
+.sec_4_img {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.sec_4_txt {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sec_4_txt h2 {
+    font-size: 22px;
+}
+
+.sec_4_txt p {
+    padding: 30px 36px;
+}
+
+.sec_4_buttons button {
+    margin: 0 20px;
 }
