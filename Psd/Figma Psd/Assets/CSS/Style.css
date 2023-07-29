@@ -469,3 +469,68 @@ header {
     padding-top: 30px;
     font-size: 15px;
 }
+
+/* ---------------footer----------------/ */
+
+footer {
+    background-color: #02033B;
+}
+
+.footer_txt {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+
+.certo {
+    padding: 0 70px;
+}
+
+.certo h2 {
+    font-size: 35px;
+    /* border-bottom: 2px solid; */
+}
+
+.certo h2::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    color: #02033B;
+    display: block;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 10px 0;
+    color: #FFC247;
+}
+
+footer ul li a {
+    color: #FFC247;
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+footer ul li::before {
+    content: "\2014";
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.font_11 {
+    font-size: 11px;
+}
+
+.footer_txt i {
+    padding: 0 40px 0 0;
+    color: white;
+}
+
+.footer_txt h2 {
+    font-size: 23px;
+}
+
+.certo h2 {
+    font-size: 35px;
+}
