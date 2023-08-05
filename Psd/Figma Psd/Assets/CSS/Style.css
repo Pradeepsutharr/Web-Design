@@ -91,9 +91,14 @@ header {
 }
 
 .navbar li a {
-    padding: 20px;
+    padding: 0 20px;
     color: black;
     font-weight: 600;
+}
+
+
+.navbar li a:hover {
+    color: #4335DE;
 }
 
 .navbar .btn {
@@ -111,27 +116,18 @@ header {
     background-image: url(../Images/bg-circle.png);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-position: -112% 9%;
-    z-index: 1;
-    position: relative;
-
+    background-position: -133% 9%;
 }
 
-.sec_1_wrap {
-    width: 75%;
-    margin: 0 auto;
-
-    padding: 100px 0;
-
+.sec_1_text {
+    margin-left: 85px;
+    padding-left: 88px;
 }
+
 
 .col_50 .image {
-    width: 30%;
-    margin: 0 0 0 80px;
-}
-
-.col_50 .image img {
-    border-radius: 20px;
+    width: 26%;
+    margin: 0 0 95px 80px;
 }
 
 .sec_1 h1 {
@@ -148,6 +144,15 @@ header {
     padding: 15px 30px;
     border-radius: 30px;
     font-size: 18px;
+    transition: all .2s ease-in-out;
+}
+
+.main_button:hover {
+    box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.10);
+}
+
+.main_button_1 {
+    margin: 0 0 0 50px;
 }
 
 .yellow_btn {
@@ -170,20 +175,15 @@ header {
     margin: 0 0 0 8px;
 }
 
-/* .bg {
-    border-top: 10px solid blue;
-    border-left: 10px solid blue;
+.bg {
+    border-top: 25px solid blue;
+    border-left: 25px solid blue;
     background-image: url(../Images/bg\ photo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    right: 0;
-    top: 10PX;
-    height: 100%;
-    bottom: 0;
-
-    padding: 30px;
-} */
+    margin-top: 70px;
+    padding: 70px 0;
+}
 
 /* --------------------section-2--------------- */
 
