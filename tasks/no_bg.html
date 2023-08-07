@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        /* div {
+            height: 170px;
+            width: 300px;
+            margin-bottom: 20px;
+            background-color: white;
+            border: 2px solid #CDCDCD;
+            background-image: url(WhatsApp\ Image\ 2023-08-04\ at\ 13.25.15.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-blend-mode: color-dodge;
+        } */
+
+
+        #no-background img {
+
+            /* filter: drop-shadow(0px); */
+            mix-blend-mode: multiply;
+            width: 100%;
+            height: 100%;
+        }
+
+        #no-background {
+            width: 350px;
+            height: 350px;
+            filter: contrast(1);
+            /* mix-blend-mode: multiply; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Example</h2>
+    <div></div>
+    <div id="no-background"><img src="WhatsApp Image 2023-08-04 at 13.25.15.jpg" alt=""></div>
+</body>
+
+</html>

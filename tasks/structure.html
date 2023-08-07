@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid; */
+        }
+
+        img {
+            width: 100%;
+            display: block;
+            aspect-ratio: 6/6;
+            padding: 10px;
+        }
+
+        section[class*="sec"] {
+            margin: 90px 0;
+        }
+
+        .col_50 {
+            width: 50%;
+        }
+
+        .col_30 {
+            width: 30%;
+        }
+
+        .col_25 {
+            width: 25%;
+        }
+
+        .col_20 {
+            width: 20%;
+        }
+
+        .col_15 {
+            width: 15%;
+        }
+
+        .container {
+            /* width: 1300px; */
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 15px 0 15px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px 0 -15px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .row>* {
+            border: 1px solid;
+            width: 100%;
+            max-width: 100%;
+            padding: 0 15px;
+        }
+
+        @media (min-width:576px) {
+            .container {
+                max-width: 540px;
+            }
+
+            .col_25 {
+                width: 50%;
+            }
+
+            .col_50 {
+                width: 50%;
+            }
+
+            .col_30 {
+                width: 33.33%;
+            }
+
+            .col_20 {
+                width: 50%;
+            }
+
+            .col_15 {
+                width: 33.33%;
+            }
+        }
+
+        @media (min-width:768px) {
+            .container {
+                max-width: 720px;
+            }
+
+            .col_25 {
+                width: 25%;
+            }
+
+            .col_50 {
+                width: 50%;
+            }
+
+            .col_30 {
+                width: 33.33%;
+            }
+
+            .col_20 {
+                width: 50%;
+            }
+
+            .col_15 {
+                width: 33.33%;
+            }
+        }
+
+        @media (min-width:992px) {
+            .container {
+                max-width: 940px;
+            }
+
+            .col_50 {
+                width: 50%;
+            }
+
+            .col_25 {
+                width: 25%;
+            }
+
+            .col_30 {
+                width: 33.33%;
+            }
+
+            .col_20 {
+                width: 20%;
+            }
+
+            .col_15 {
+                width: 16.66%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo">Logo</div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="search here">
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <main>
+        <section class="sec_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col_50"><img src="1.jpg" alt=""></div>
+
+                    <div class="col_50"><img src="2.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec_2">
+            <div class="container">
+                <div class="row">
+                    <div class="col_30"><img src="1.jpg" alt=""></div>
+                    <div class="col_30"><img src="2.jpg" alt=""></div>
+                    <div class="col_30"><img src="3.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec_3">
+            <div class="container">
+                <div class="row">
+                    <div class="col_25"><img src="1.jpg" alt=""></div>
+                    <div class="col_25"><img src="2.jpg" alt=""></div>
+                    <div class="col_25"><img src="3.png" alt=""></div>
+                    <div class="col_25"><img src="4.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec_4">
+            <div class="container">
+                <div class="row">
+                    <div class="col_20"><img src="1.jpg" alt=""></div>
+                    <div class="col_20"><img src="2.jpg" alt=""></div>
+                    <div class="col_20"><img src="3.png" alt=""></div>
+                    <div class="col_20"><img src="4.jpg" alt=""></div>
+                    <div class="col_20"><img src="5604812 (1).jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec_5">
+            <div class="container">
+                <div class="row">
+                    <div class="col_15"><img src="1.jpg" alt=""></div>
+                    <div class="col_15"><img src="2.jpg" alt=""></div>
+                    <div class="col_15"><img src="3.png" alt=""></div>
+                    <div class="col_15"><img src="4.jpg" alt=""></div>
+                    <div class="col_15"><img src="5604812 (1).jpg" alt=""></div>
+                    <div class="col_15"><img src="peakpx (1).jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
